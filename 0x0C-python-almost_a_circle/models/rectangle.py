@@ -80,8 +80,8 @@ class Rectangle(Base):
         self.__y = value
 
     def area(self):
-            """Return the area of the Rectangle."""
-            return self.width * self.height
+        """Return the area of the Rectangle."""
+        return self.width * self.height
 
     def display(self):
         """Print the Rectangle using the `#` character."""
