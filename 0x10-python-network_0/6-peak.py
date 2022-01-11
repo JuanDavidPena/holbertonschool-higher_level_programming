@@ -16,7 +16,7 @@ def find_peak(arr):
 
     prev = arr[0]
 
-    for i in range (1, len(arr)- 1):
+    for i in range(1, len(arr) - 1):
         if arr[i] > prev and arr[i + 1] < arr[i]:
             return arr[i]
         prev = arr[i]
